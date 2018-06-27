@@ -1,5 +1,7 @@
-<h1>Book list</h1>
+<%include partials/header%>
 
+<h1>Book list</h1>
+<a href="/books/new">Create New Book</a>
 <% books.forEach(function(book){ %>
 
   <div class="">
@@ -8,3 +10,5 @@
   </div>
 
 <% }); %>
+
+<%include partials/footer%>
